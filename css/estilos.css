@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+span.mayus {
+  text-transform: uppercase;
+}
+
+body {
+	background-color: #FFFAF0;
+}
+
+.titulo {
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+	text-align:center; 
+	color: #000000;
+	padding:0px;
+	margin-top:0px;
+	text-shadow: 2px 2px 4px #ffffff;
+    background-image: url(../imagenes/desayuno-encabezado.png);
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.titulo h1 {
+	padding:0px;
+	margin:0px;
+}
+
+.titulo h3 {
+	font-size: 20px;
+	margin:0px;
+	padding-bottom:20px;
+}
+.menu {
+	text-align:center;
+	width: 100%;
+	background-color: #D3D3aa;
+}
+.menuitem {
+	font-size: 20px;
+	padding: 8px;
+	margin-top: 7px;
+	font-weight: bold;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+ a {
+	text-decoration: none;
+	color: #FFF8DC;
+ }
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.main a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+.galeria {
+	margin: 5px;
+	float: left;
+	width: 160px;
+	height: 160px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+.descripcion {
+	font-size:12px;
+	padding: 5px;
+	text-align: center;
+}
+
+hr {
+  display: block;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.menu .menuitem img {
+	width: 100px;
+	height: 100px;
+}
+.main h2 {
+	text-shadow: 2px 2px 2px #B22222;
+}
+.right {
+	background-color: lightblue;
+	float: right;
+	width: 20%;
+	padding: 10px 15px;
+	margin-top: 9px;
+	text-shadow: 2px 2px 4px #696969;
+}
+
+.volver {
+	font-size: 15px;
+	color: #D2691E;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+  .menu .menuitem img {
+	width: 50px;
+	height: 50px;
+  }
+  
+  hr {
+	width: 50%;
+  }  
+}
+
+@media all and (display-mode: standalone) {
+	body {
+		background-color: #FAFAFD;
+	}
+}
+
+/*
+	Or with Javascript:
+	window.matchMedia('(display-mode: standalone)'
+*/
