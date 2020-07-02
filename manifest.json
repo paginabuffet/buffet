@@ -18,8 +18,9 @@
       "sizes": "192x192",
       "type": "image/png"
     }],
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FAFAFD",
   "theme_color": "#FAFAFD"
 }
