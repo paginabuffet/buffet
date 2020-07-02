@@ -13,7 +13,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-title" content="Buffet Desayunos">
-	<link rel="apple-touch-icon" href="/imagenes/icons/icon-152x152.png">
+	<link rel="apple-touch-icon" href="imagenes/icons/icon-152x152.png">
 	
 	<!-- CODELAB: Add the install script here -->
 <style>
@@ -22,7 +22,7 @@
 </head>
 <body style="font-family:Verdana;">
 
-	<script src="/scripts/install.js"></script>
+	<script src="scripts/install.js"></script>
 
 <div class="titulo" id="inicio">
   <h1>Buffet</h1>
@@ -167,7 +167,7 @@
    // CODELAB: Register service worker.
 	if ('serviceWorker' in navigator) {
 	  window.addEventListener('load', () => {
-		navigator.serviceWorker.register('/service-worker.js')
+		navigator.serviceWorker.register('service-worker.js')
 			.then((reg) => {
 			  console.log('Service worker registered.', reg);
 			});
