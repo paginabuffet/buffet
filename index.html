@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="/css/estilos.css">
+	<link rel="manifest" href="/manifest.json">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buffet - Pasteleria artesanal</title>  
 	<meta name="description" content="Buffet Desayunos">
@@ -24,7 +24,7 @@
 </head>
 <body style="font-family:Verdana;">
 
-	<script src="scripts/install.js"></script>
+	<script src="/scripts/install.js"></script>
 
 <div class="titulo" id="inicio">
   <h1>Buffet</h1>
@@ -166,15 +166,15 @@
 <div style="background-color:#D3D3aa;text-align:center;padding:10px;margin-top:7px;font-size:12px;"><b>
   Club Social y deportivo cultural.</B> <a href="#inicio"><span class="volver">Inicio</span></a> 
 </div>
-  <script src="scripts/luxon-1.11.4.js"></script>
-  <script src="scripts/app.js"></script>
+  <script src="/scripts/luxon-1.11.4.js"></script>
+  <script src="/scripts/app.js"></script>
 
   <!-- CODELAB: Add the install script here -->
   <script>
    // CODELAB: Register service worker.
 	if ('serviceWorker' in navigator) {
 	  window.addEventListener('load', () => {
-		navigator.serviceWorker.register('service-worker.js')
+		navigator.serviceWorker.register('/service-worker.js')
 			.then((reg) => {
 			  console.log('Service worker registered.', reg);
 			});
