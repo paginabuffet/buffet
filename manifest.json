@@ -20,6 +20,7 @@
     }],
   "start_url": "/index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FAFAFD",
   "theme_color": "#FAFAFD"
 }
