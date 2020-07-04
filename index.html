@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>Buffet - Pasteleria artesanal</title>
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="/css/estilos.css">
+	<link rel="manifest" href="/manifest.json">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Buffet Desayunos">
 	<!--Para configurar el color del tema en dispositivos móviles-->
@@ -22,7 +22,7 @@
 </head>
 <body style="font-family:Verdana;">
 
-	<script src="scripts/install.js"></script>
+	<script src="/scripts/install.js"></script>
 
 <div class="titulo" id="inicio">
   <h1>Buffet</h1>
@@ -160,8 +160,8 @@
 
 <div style="background-color:#D3D3aa;text-align:center;padding:10px;margin-top:7px;font-size:12px;"><b>Club Social y deportivo cultural.</B> <a href="https://mdn.github.io/pwa-examples/a2hs/"><span class="volver">Inicio</span></a> 
 </div>
-  <script src="scripts/luxon-1.11.4.js"></script>
-  <script src="scripts/app.js"></script>
+  <script src="/scripts/luxon-1.11.4.js"></script>
+  <script src="/scripts/app.js"></script>
 
 
   <!-- CODELAB: Add the install script here -->
@@ -169,7 +169,7 @@
    // CODELAB: Register service worker.
 	if ('serviceWorker' in navigator) {
 	  window.addEventListener('load', () => {
-		navigator.serviceWorker.register('service-worker.js')
+		navigator.serviceWorker.register('/service-worker.js')
 			.then((reg) => {
 			  console.log('Service worker registered.', reg);
 			});
