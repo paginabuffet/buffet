@@ -105,6 +105,7 @@ self.addEventListener('fetch', (evt) => {
 			  });
 		})
 	);
+
 /*	evt.respondWith(
 		caches.match(evt.request)
 			.then(function(response) {
